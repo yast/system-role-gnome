@@ -1,0 +1,6 @@
+-------------------------------------------------------------------
+Thu Nov 30 15:00:09 UTC 2017 - gsouza@suse.com
+
+- Initial package (needed for having roles in their own package for
+  different modules) bsc#1049297.
+- 15.0.0
