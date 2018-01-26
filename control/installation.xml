@@ -11,11 +11,12 @@ textdomain="control"
     <texts>
       <gnome_desktop_host_role>
         <!-- TRANSLATORS: a label for a system role -->
-        <label>GNOME desktop</label>
+        <label>GNOME Desktop (Wayland)</label>
       </gnome_desktop_host_role>
       <gnome_desktop_host_role_description>
-        <label>• GNOME environment, with Btrfs root (/) partition
-• Separate /home partition (XFS) for disks larger than 20GB</label>
+        <label>• Full featured GNOME desktop environment, including Office suite, E-Mail client, File Manager.
+• Optimized for installation on physical systems, using Wayland technology.
+• Remote graphical access to GNOME desktop environment is not available when using Wayland.</label>
       </gnome_desktop_host_role_description>
     </texts>
 
@@ -28,9 +29,6 @@ textdomain="control"
               <system_role>
                 <id>gnome_desktop_host_role</id>
                 <order config:type="integer">3000</order>
-                <partitioning>
-                  <try_separate_home config:type="boolean">false</try_separate_home>
-                </partitioning>
                 <software>
                   <default_patterns>base enhanced_base yast2_basis x11_yast x11 gnome</default_patterns>
                   <optional_default_patterns><![CDATA[]]></optional_default_patterns>
