@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Fri Jan 26 12:12:00 UTC 2018 - fcrozat@suse.com
+
+- Update description according to FATE#324198.
+- Do not change partition proposal (FATE#324198).
+- 15.0.1
+
+-------------------------------------------------------------------
 Thu Nov 30 15:00:09 UTC 2017 - gsouza@suse.com
 
 - Initial package (needed for having roles in their own package for
