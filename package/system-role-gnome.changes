@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Fri Apr  6 14:02:54 UTC 2018 - fcrozat@suse.com
+
+- Add gnome_multimedia pattern (bsc#1080203).
+- 15.0.2
+
+-------------------------------------------------------------------
 Fri Jan 26 12:12:00 UTC 2018 - fcrozat@suse.com
 
 - Update description according to FATE#324198.
