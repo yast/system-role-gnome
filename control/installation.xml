@@ -30,7 +30,7 @@ textdomain="control"
                 <id>gnome_desktop_host_role</id>
                 <order config:type="integer">3000</order>
                 <software>
-                  <default_patterns>base enhanced_base yast2_basis x11_yast x11 gnome_x11 gnome_multimedia</default_patterns>
+                  <default_patterns>base enhanced_base yast2_basis x11_yast x11 gnome gnome_multimedia</default_patterns>
                   <optional_default_patterns><![CDATA[]]></optional_default_patterns>
                 </software>
               </system_role>
